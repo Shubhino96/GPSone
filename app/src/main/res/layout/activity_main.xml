@@ -22,7 +22,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@string/app_name"/>
 </android.support.v7.widget.Toolbar>
     <Button
         android:layout_width="wrap_content"
@@ -37,5 +38,35 @@
         android:layout_below="@id/locbuttn"
         android:layout_margin="12dp"
         android:layout_centerHorizontal="true"
-        android:id="@+id/loctest"/>
+        android:id="@+id/loctest"
+        android:fontFamily="@string/app_name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loctest"
+        android:layout_margin="16dp"
+        android:inputType="textMultiLine"
+        android:id="@+id/edit1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit1"
+        android:id="@+id/edit2"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit2"
+        android:layout_centerHorizontal="true"
+        android:text="get"
+        android:id="@+id/set"/>
+
+    <TextView
+        android:layout_below="@id/set"
+        android:layout_margin="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cattxt"/>
+
 </RelativeLayout>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">GPSone</string>
+    <array name="Sample">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+    </array>
 </resources>
